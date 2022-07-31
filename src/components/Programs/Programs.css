@@ -5,16 +5,6 @@
     padding: 0 2rem;
 }
 
-.program-header {
-    display: flex;
-    gap: 5rem;
-    font-weight: bold;
-    font-size: 3rem;
-    justify-content: center;
-    color: white;
-    text-transform: uppercase;
-    font-style: italic;
-}
 
 .program-categories {
     display: flex;
@@ -31,18 +21,18 @@
     justify-content: space-between;
 }
 
-.category>:nth-of-type(1) {
+.category>:nth-child(1) {
     width: 2rem;
     height: 2rem;
     fill: white;
 }
 
-.category>:nth-of-type(2) {
+.category>:nth-child(2) {
     font-size: 1rem;
     font-weight: bold;
 }
 
-.category>:nth-of-type(3) {
+.category>:nth-child(3) {
     font-size: 0.9rem;
     line-height: 25px;
 }
@@ -51,4 +41,9 @@
     display: flex;
     align-items: center;
     gap: 2rem;
+}
+
+.category:hover {
+    background: var(--planCard);
+    cursor: pointer;
 }

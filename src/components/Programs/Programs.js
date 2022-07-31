@@ -24,7 +24,7 @@ const Programs = () => {
                             <span>{program.heading}</span>
                             <span>{program.details}</span>
                             <div className="join-now">
-                                <span>Join Now</span>
+                                <p>Join Now</p>
                                 <img src={RightArrow} alt="" />
                             </div>
                         </div>
